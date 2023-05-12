@@ -1,0 +1,23 @@
+{
+  "lwc": {
+    "modules": [
+      {
+        "dir": "$rootDir/modules"
+      }
+    ]
+  },
+  "moduleProviders": [
+    "@lwrjs/app-service/moduleProvider",
+    "@lwrjs/lwc-module-provider",
+    "@lwrjs/npm-module-provider"
+  ],
+  "layoutsDir": "$rootDir/local/layouts",
+  "routes": [
+    {
+      "id": "app",
+      "path": "/",
+      "rootComponent": "c/app",
+      "layoutTemplate": "$layoutsDir/main.njk"
+    }
+  ]
+}

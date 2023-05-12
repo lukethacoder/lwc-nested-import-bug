@@ -1,0 +1,24 @@
+{
+  "name": "lwc-nested-import-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lwr dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@lwc/engine-dom": "^2.45.2",
+    "@lwc/synthetic-shadow": "^2.45.2",
+    "@lwrjs/client-modules": "^0.9.4",
+    "@lwrjs/loader": "^0.9.4",
+    "@lwrjs/o11y": "^0.9.4",
+    "@lwrjs/router": "^0.9.4",
+    "lwc": "^2.45.2",
+    "lwr": "^0.9.4",
+    "prettier": "^2.8.8"
+  }
+}
